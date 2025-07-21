@@ -1,4 +1,4 @@
 # product-ordering-system-project
-Implemented a product order system using C#
 
-If the total amount exceeds $100.00 then the customer gets 10% off
+this project involves building a simple product ordering system using C#. It starts by defining a Product class that stores information like product name, price per unit, and quantity ordered. The class also calculates totals automatically, such as the total before tax, the tax amount, the total after tax. In the main program, three different products are created, and the user can input how many units they want for each. After that, there is an interactive menu that lets the user view their cart, update their order, or exit. When viewing the cart, the program shows a detailed summary of each product and applies 10% discount if the total exceeds $100. 
+The whole system is designed to let users interactively build and adjust their order while the code handles all the calculations and formatting in the background.
